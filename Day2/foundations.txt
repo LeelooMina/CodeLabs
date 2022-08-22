@@ -1,0 +1,18 @@
+What are data types?
+
+Data types are categories for different types of information.
+
+
+What are operators used for?
+
+Mathematical problems and comparing different variables. 
+
+
+What are conditional statements?
+
+Code that is only executed when certain conditions are met. 
+
+
+What are loops?
+
+Code that will continue to execute until a condition is met. 

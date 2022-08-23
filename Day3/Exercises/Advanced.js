@@ -16,8 +16,16 @@ keysAndValues({ key1: true, key2: false, key3: undefined })
 */
 
 function keysAndValues(obj){
-    console.log("Keys: " + Object.keys(obj));
-    console.log("Values: " + Object.values(obj));
+    
+    let key = Object.keys(obj);
+    let value = Object.values(obj);
+
+    key.sort();
+    value.sort();
+
+
+    console.log("Keys: " + key);
+    console.log("Values: " + value);
 }
 
 keysAndValues({ a: 1, b: 2, c: 3 });

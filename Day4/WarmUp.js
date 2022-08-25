@@ -13,5 +13,5 @@ function findWaldo(group) {
 }
 
 
-console.log(findWaldo(['Stacy', 'Waldo', 'John']);); // returns ['Stacy', 'Found Waldo!', 'John']
+console.log(findWaldo(['Stacy', 'Waldo', 'John']); // returns ['Stacy', 'Found Waldo!', 'John']
 findWaldo(['Waldo', 'Jimmy', 'James', 'Jamie', 'Waldo']) // ['Found Waldo!', 'Jimmy', 'James', 'Jamie', 'Found Waldo!']

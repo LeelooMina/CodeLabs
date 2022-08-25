@@ -9,6 +9,12 @@ min(1, 1) == 1
 */
 
 function min(a,b){
+    
+    //Parsing strings into intergers
+
+    a = parseInt(a);
+    b = parseInt(b);
+
     if (a < b){
         return a;
     }else {
@@ -21,4 +27,10 @@ let num1 = prompt("Enter a number:");
 let num2 = prompt("Enter a second number:");
 
 
-console.log(min(num1,num2))
+console.log(min(5,100));
+
+console.log(min(402,82));
+
+console.log(min(num1,num2));
+
+

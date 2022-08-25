@@ -22,8 +22,8 @@ function keysAndValues(obj){
    keysObj.sort();
    valuesObj.sort();
 
-    console.log('Keys: $(keysObj)');
-    console.log('Values: $(valuesObj)');
+    console.log(`Keys: ${keysObj}`);
+    console.log(`Values: ${valuesObj}`);
 }
 
 keysAndValues({ a: 1, b: 2, c: 3 });

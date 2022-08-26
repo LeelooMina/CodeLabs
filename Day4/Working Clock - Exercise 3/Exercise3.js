@@ -14,16 +14,21 @@ function showTime(){
     let minutes = date.getMinutes();
     let seconds = date.getSeconds();
     amPm = "AM";
+
+
  
     hours = testHours(hours);
     seconds = testSeconds(seconds);
     minutes = testMinutes(minutes);
+
+
 
     hoursPage.innerText = hours;
     minutesPage.innerText = minutes;
     secondsPage.innerText = seconds;
     amPmPage.innerText = amPm;
 }
+
 
 
 //Change 24 hours to 12 - does not check if time is in 24 hour format

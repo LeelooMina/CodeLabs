@@ -10,7 +10,7 @@ function findWaldo(group) {
     
 
   return group; }
-}
+}}
 
 
 console.log(findWaldo(['Stacy', 'Waldo', 'John']); // returns ['Stacy', 'Found Waldo!', 'John']

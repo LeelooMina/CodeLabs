@@ -21,6 +21,10 @@ console.log(bookmarks);
 //append to body
 function showBookmarks(bmarkList){
     for(i = 0; i <= bmarkList.length; i++){
+        b = document.getElementById("displayBookm");
+        b.createElement('p');
+        b.innerText = "ha ha"
+        document.body.appendChild(b);
         
     }
 

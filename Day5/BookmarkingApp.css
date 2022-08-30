@@ -1,0 +1,23 @@
+body{
+    background-color:antiquewhite
+}
+
+.form{
+    background-color:darksalmon;
+    padding: 20px;
+    margin-left: 30%;
+    margin-right: 30%;
+    margin-top: 5%;
+    text-align: center;
+}
+
+.displayInfo{
+    margin-top: 5%;
+    margin-left: 30%;
+    margin-right: 30%;
+    text-align: center;
+}
+
+.bookmarkTx{
+    padding: 100px;
+}

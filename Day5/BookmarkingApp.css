@@ -1,8 +1,25 @@
 body{
-    background-color:antiquewhite
+    background-color:antiquewhite;
+    background-image: url(bgimg.jpg);
+    background-size: cover;
 }
 
-.form{
+.floater{
+    background: #fff;
+    font-size: 19px;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+    height: 30%;
+    margin: 5% auto;
+    border-radius: 10px;
+    line-height: 3.5;
+    
+}
+
+/*.form{
     background-color:darksalmon;
     padding: 20px;
     margin-left: 30%;
@@ -16,8 +33,7 @@ body{
     margin-left: 30%;
     margin-right: 30%;
     text-align: center;
-}
+}*/
 
-.bookmarkTx{
-    padding: 100px;
-}
+
+

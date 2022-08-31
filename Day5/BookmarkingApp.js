@@ -19,20 +19,21 @@ console.log(bookmarks);
 }
 
 //append to body
+
 function showBookmarks(bmarkList){
     for(i = 0; i <= bmarkList.length; i++){
-        b = document.getElementById("displayBookm");
-        b.createElement('p');
-        b.innerText = "ha ha"
-        document.body.appendChild(b);
+        //let b = document.getElementById("displayBookm");
+        let addBook = document.createElement('p');
+        addBook.innerText = bmarkList[i];
+        let displayBooks = document.getElementById("displayBookm");
+        displayBooks.appendChild(addBook);
         
     }
 
 }
 
-
 //for( ){
-
+≠≠
 //}
 
 //save to local storage

@@ -32,11 +32,11 @@ countOdd(10);
 function countPrime(num){
     console.log('Prime');
 
-    for(i = 0; i <= num; i++)
-        //check = isPrime(i);
+    for(i = 0; i <= num; i++){
         if(isPrime(i)){
             console.log(i);
         }
+    }
         
     }
 
@@ -49,12 +49,10 @@ function isPrime(num) {
         }
     
         for (var i = 2; i < num; i++) {
-        
-        
-        if(num % i === 0){
+            if(num % i === 0){
             return false;
+            }
         }
-    }
 
     return true;
 }

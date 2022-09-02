@@ -57,4 +57,4 @@ function isPrime(num) {
     return true;
 }
 
-countPrime(10);
+countPrime(15);

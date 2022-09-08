@@ -20,3 +20,5 @@ console.log(isPrime(10));
 console.log(isPrime(5));
 
 console.log(isPrime(77));
+
+console.log(isPrime(17));

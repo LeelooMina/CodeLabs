@@ -33,7 +33,7 @@ function showBookmarks(bmarkList){
 }
 
 //for( ){
-≠≠
+ 
 //}
 
 //save to local storage

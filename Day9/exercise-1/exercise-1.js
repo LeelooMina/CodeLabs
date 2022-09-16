@@ -28,6 +28,8 @@ function reciteMyOrders(customerOrders) {
     
   });
 
+  //console.log(customerOrders[0].order);
+
 }
 
 reciteMyOrders(orders);

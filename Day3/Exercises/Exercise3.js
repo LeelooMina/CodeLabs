@@ -23,12 +23,16 @@ function keysAndValues(obj){
     key.sort();
     value.sort();
 
+    //let str = key + value;
 
-    console.log("Keys: " + key);
-    console.log("Values: " + value);
+    //return(str);
+
+
+   console.log("Keys: " + key);
+   console.log("Values: " + value);
 }
 
-keysAndValues({ a: 1, b: 2, c: 3 });
+console.log(keysAndValues({ a: 1, b: 2, c: 3 }));
 
 keysAndValues({ a: "Apple", b: "Microsoft", c: "Google" });
 

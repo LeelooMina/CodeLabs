@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1 onclick="changeColor()">Magic Color Changing Text</h1>
+    <h2>The button changes this text!</h2>
+    <button onclick="changeColorButton()">Colors!</button>
+</body>
+    <script>
+        
+        function changeColor(){
+        document.querySelector('h1').style.color = "green"
+        }
+        function changeColorButton(){
+        document.querySelector('h2').style.color = "green"
+        }
+    </script>
+</html>

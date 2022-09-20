@@ -1,9 +1,9 @@
 // Add two to every value of the array except to odd numbers.
 
 function addTwoExceptToOddNumbers(numbers) {
-  let returnArr = [];
+  let returnArr:number[] = [];
 
-  numbers.forEach(function (i) {
+  numbers.forEach(function (i:number) {
     if(i % 2 === 0){
 
       returnArr.push(i + 2);

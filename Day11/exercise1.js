@@ -1,3 +1,6 @@
+// Exercise 1:
+// Evaluate the expression of a and b depending on what operator is
+
 function calculate(a, b, operator) {
     return eval(a + operator + b);
   }

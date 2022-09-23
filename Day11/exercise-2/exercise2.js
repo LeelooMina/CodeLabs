@@ -11,12 +11,13 @@ let list = [
     }
   ]
 
-  let el = document.getElementById("objAppear");
+  //let el = document.getElementById("objAppear");
 
-  for(i of list){
-    let listShow = document.createElement('p');
-    // listShow.innerHTML = list[i].id + list[i].completed + list[i].action;
-    // document.appendChild(listShow);
-    console.log(list.id[i])
+  for(let i = 0; i < list.length; i++){
+    let fullTodo = `Id: ${list[i].id}, 
+                    Completed: ${list[i].completed},
+                    Action: ${list[i].action}`
+                    
+    document.body.innerHTML = <p>${fullTodo}</p>
   }
 

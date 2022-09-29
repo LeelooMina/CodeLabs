@@ -7,7 +7,7 @@ let sentence = "My name is John!";
 function reverse(str) {
     let newString = "";
     
-    for (var i = str.length - 1; i >= 0; i--) { 
+    for (i = str.length - 1; i >= 0; i--) { 
         newString += str[i]; 
     }
     

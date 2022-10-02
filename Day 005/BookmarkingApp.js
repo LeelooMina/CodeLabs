@@ -23,7 +23,7 @@ console.log(bookmarks);
 function showBookmarks(bmarkList){
     for(i = 0; i <= bmarkList.length; i++){
         //let b = document.getElementById("displayBookm");
-        let addBook = document.createElement('p');
+        let addBook = document.createElement('li');
         addBook.innerText = bmarkList[i];
         let displayBooks = document.getElementById("displayBookm");
         displayBooks.appendChild(addBook);

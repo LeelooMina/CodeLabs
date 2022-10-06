@@ -22,4 +22,4 @@ oddNumbs = numbers.filter((num) => num % 2 != 0);
 
 console.log(oddNumbs);
 
-console.log(numbers.reduce((sum, a) => sum + a));
+console.log(oddNumbs.reduce((sum, a) => sum + a));

@@ -18,7 +18,7 @@ for(i = 0; i <= 50; i++){
 
 
 
-oddNumbs = numbers.filter((n) => n % 2 == 1);
+oddNumbs = numbers.filter((num) => num % 2 != 0);
 
 console.log(oddNumbs);
 
